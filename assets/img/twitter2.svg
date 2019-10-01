@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 141" width="170" height="141">
+	<defs>
+		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1="95.686" y1="132.501" x2="95.686" y2="-1.806">
+			<stop offset="0" stop-color="#a26b00"  />
+			<stop offset="1" stop-color="#a26b00" stop-opacity="0" />
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill-opacity: 0.902;fill: url(#grd1);stroke: #000000;paint-order:stroke fill markers;stroke-opacity:0.18;stroke-width: 2 } 
+	</style>
+	<g id="section_1">
+		<g id="scroll_2">
+			<path id="twitter" class="shp0" d="M167 18.31L151.72 33.63C151.72 33.63 151.72 32.24 151.72 36.18C151.72 38.98 151.27 41.65 150.62 44.25C150.26 65.31 143.56 93.25 116.06 115.3C61.96 158.67 4 120.4 4 120.4C49.84 120.4 49.84 105.09 49.84 105.09C39.66 105.09 19.28 84.67 19.28 84.67C24.37 89.77 34.56 84.67 34.56 84.67C9.09 69.36 9.09 54.04 9.09 54.04C14.19 59.15 24.37 54.04 24.37 54.04C-1.09 33.63 14.19 8.1 14.19 8.1C19.28 33.63 85.5 43.83 85.5 43.83L86.34 43.41C85.82 41.08 85.5 36.12 85.5 33.63C85.5 15.3 100.32 3 118.61 3C128.67 3 137.58 7.6 143.65 14.7L146.62 13.21L161.91 3L151.72 23.42L167 18.31Z" />
+		</g>
+	</g>
+</svg>
