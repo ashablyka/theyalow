@@ -1,4 +1,5 @@
 a {
+    display: block;
     color: inherit;
     text-decoration: none;
 }
@@ -182,13 +183,10 @@ ul {
 
 .advantages__list li {
     width: 340px;
-    padding-top: 148px;
-    padding-bottom: 32px;
     font-size: 27px;
     font-weight: 300;
     font-family: "Segoe UI";
     letter-spacing: 0.3px;
-    text-align: center;
     color: #000000;
     border-left: 1px solid #d4d4d4;
 }
@@ -197,12 +195,21 @@ ul {
     border-right: 1px solid #d4d4d4;
 }
 
+.advantages__link {
+    height: 211px;
+    line-height: 325px;
+}
+
 .advantages__design {
-    background: url(../img/design.svg) 110px 60px no-repeat;
+    background: url(../img/design.svg) 110px 60px no-repeat;   
 }
 
 .advantages__design:hover {
     background-image: url(../img/design.png);
+}
+
+.advantages__design a {
+    text-indent: 86px;
 }
 
 .advantages__customise {
@@ -213,12 +220,20 @@ ul {
     background-image: url(../img/customise.png);
 }
 
+.advantages__customise a {
+    text-indent: 110px;
+}
+
 .advantages__free {
     background: url(../img/free.svg) 118px 54px no-repeat;
 }
 
 .advantages__free:hover {
     background-image: url(../img/free.png);
+}
+
+.advantages__free a {
+    text-indent: 112px;
 }
 
 .content {
@@ -532,20 +547,25 @@ ul {
     }
     
     .nav__about {
-        padding: 10px 23px 10px 38px;
+        padding: 0 23px 0 38px;
         background-position-x: 3px;
         background-size: 17%;
     }  
     .nav__services {
-        padding: 10px 14px 10px 38px;
+        padding: 0 14px 0 38px;
         background-position-x: 8px;
         background-size: 18%;
     }
     
     .nav__contact {
-        padding: 10px 13px 10px 51px;
+        padding: 0 13px 0 51px;
         background-position-x: 11px;
         background-size: 20%;
+    }
+
+    .nav li a {
+        height: 62px;
+        line-height: 62px;
     }
     
     .slider {
@@ -569,7 +589,6 @@ ul {
     
     .advantages__list li {
         width: 213px;
-        padding-top: 110px;
         font-size: 23px;
         border-left: 0;
     }
@@ -577,17 +596,35 @@ ul {
     .advantages__list li:last-child {
         border-right: 0;
     }
+
+    .advantages__link {
+        height: 170px;
+        line-height: 246px;
+    }
+
     
     .advantages__design {
-        background: url(../img/design.svg) center 26px / 45% no-repeat;
+        background: url(../img/design.svg) 40px 26px / 45% no-repeat;
+    }
+
+    .advantages__design a {
+        text-indent: 15px;
     }
     
     .advantages__customise {
-        background: url(../img/customise.svg) center 26px / 30% no-repeat;
+        background: url(../img/customise.svg) 82px 26px / 30% no-repeat;
+    }
+
+    .advantages__customise a {
+        text-indent: 56px;
     }
  
     .advantages__free {
-        background: url(../img/free.svg) center 26px / 33% no-repeat;
+        background: url(../img/free.svg) 68px 26px / 33% no-repeat;
+    }
+
+    .advantages__free a {
+        text-indent: 68px;
     }
 
     .content {
